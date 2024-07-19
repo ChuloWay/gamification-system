@@ -168,7 +168,7 @@ const Challenges = () => {
             >
               Complete Task B (Earn 20 Points)
             </button>
-
+           
             <button
               className="w-full py-3 px-4 bg-violet-500 text-white rounded-lg shadow-md hover:bg-violet-700 transition duration-200"
               onClick={() =>
@@ -206,8 +206,7 @@ const Challenges = () => {
               Complete Task D (Earn 50 Points)
             </button>
             <button
-              className={`w-full py-3 px-4 bg-violet-500 text-white
-              relative rounded-lg shadow-md transition duration-200 ${
+              className={`w-full py-3 px-4 relative rounded-lg shadow-md transition duration-200 ${
                 isAchievementUnlocked("6686b404242224f0c6d9e432")
                   ? "cursor-not-allowed"
                   : "hover:bg-violet-700"

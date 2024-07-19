@@ -1,6 +1,6 @@
 # Gamification System
 
-This project is a gamification system that includes a RESTful API built with Node.js and Express.js and a frontend built with React. The system manages points, achievements, and badges, and maintains a real-time updating leaderboard.
+This project is a gamification system that includes a RESTful API built with Node.js, TypeScript, Express.js and a frontend built with React. The system manages points, achievements, and badges, and maintains a real-time updating leaderboard.
 
 
 ![Chat App Demo](./assets/gamify.gif)
